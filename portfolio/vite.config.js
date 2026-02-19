@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Portfolio/',   // ✅ Add this line
+  base: '/',   // ✅ Add this line
   plugins: [vue()],
   resolve: {
     alias: {
